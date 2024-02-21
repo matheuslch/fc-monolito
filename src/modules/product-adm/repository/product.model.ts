@@ -18,6 +18,9 @@ export class ProductModel extends Model {
     @Column({ allowNull: false })
     declare purchasePrice: number;
 
+    @Column({ allowNull: true })
+    salesPrice: number;
+
     @Column({ allowNull: false })
     declare stock: number;
 

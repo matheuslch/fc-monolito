@@ -1,7 +1,7 @@
-import { ValueObject } from "./value-object.interface";
+import ValueObject from "./value-object.interface";
 import { v4 as uuidv4 } from "uuid";
 
-export class Id implements ValueObject {
+export default class Id implements ValueObject {
     private _id: string;
 
     constructor(id?: string) {

@@ -1,6 +1,6 @@
-import { Id } from "../value-object/id.value-object";
+import Id from "../value-object/id.value-object";
 
-export class BaseEntity {
+export default class BaseEntity {
     private _id: Id;
     private _createdAt: Date;
     private _updatedAt: Date;

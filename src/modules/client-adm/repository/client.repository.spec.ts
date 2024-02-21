@@ -35,9 +35,9 @@ describe("Client Repository test", () => {
             address: new Address(
                 "Rua 123",
                 "99",
-                "Casa Verde",
-                "Criciúma",
-                "SC",
+                "Complemento",
+                "Caconde",
+                "SP",
                 "88888-888"
             )
         })
@@ -72,9 +72,9 @@ describe("Client Repository test", () => {
             address: new Address(
                 "Rua 123",
                 "99",
-                "Casa Verde",
-                "Criciúma",
-                "SC",
+                "Complemento",
+                "Caconde",
+                "SP",
                 "88888-888"
             )
         })

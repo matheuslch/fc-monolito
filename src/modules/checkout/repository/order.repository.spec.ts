@@ -49,14 +49,14 @@ describe("OrderRepository test", () => {
 
         const orderClient = new Client({
             id: new Id("1"),
-            name: "John Doe",
-            email: "john.doe@email.com",
+            name: "Matheus",
+            email: "matheus@email.com",
             address: new Address(
                 "Rua 123",
                 "99",
-                "Casa Verde",
-                "Criciúma",
-                "SC",
+                "Complemento",
+                "Caconde",
+                "SP",
                 "88888-888",
             )
         });
@@ -86,8 +86,8 @@ describe("OrderRepository test", () => {
                 id: "1",
                 createdAt: mockDate,
                 updatedAt: mockDate,
-                name: "John Doe",
-                email: "john.doe@email.com",
+                name: "Matheus",
+                email: "matheus@email.com",
                 address: "Main Street, CA, 123",
             },
             products: [

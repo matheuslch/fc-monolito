@@ -11,9 +11,9 @@ const client = new Client({
     address: new Address(
         "Rua 123",
         "99",
-        "Casa Verde",
-        "Criciúma",
-        "SC",
+        "Complemento",
+        "Caconde",
+        "SP",
         "88888-888",
     )
 })
